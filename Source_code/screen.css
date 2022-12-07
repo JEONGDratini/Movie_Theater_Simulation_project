@@ -1,0 +1,402 @@
+.screen{
+    position: absolute;
+    width:auto;
+    height:auto;
+    padding: 1%;
+    background-color:#FFFFFF;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    border : 2px solid rgb(110, 9, 9);}
+
+    .screenback{
+        background-color: #34495e;
+    }
+    
+    input[type="checkbox"]{
+        display: none;
+    }
+    input[type="checkbox"] + label{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border: 3px solid #707070;
+        position: relative;
+    }
+    
+    input[id="A1"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+
+    
+    input[id="A2"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+
+    
+    input[id="A3"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+
+    
+    input[id="A4"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+
+    
+    input[id="A5"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+
+    
+    input[id="A6"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+
+    
+    input[id="B1"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+
+    
+    input[id="B2"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+
+    
+    input[id="B3"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+
+    
+    input[id="B4"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+
+    
+    input[id="B5"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="B6"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="C1"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="C2"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="C3"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="C4"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="C5"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="C6"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="D1"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="D2"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="D3"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="D4"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="D5"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="D6"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="E1"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="E2"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="E3"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="E4"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="E5"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    
+    input[id="E6"]:checked + label::after{
+        content: url(./img/check.png);
+        font-size: 25px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+
+    #goback{
+        width:100px;
+        margin:auto;
+        display:block;
+    }
+    #select{
+        width:100px;
+        margin:auto;
+        display:block;
+    }
+
+    .btn{
+        position:relative;
+        left: 40%;
+        transform: translateX(-50%);
+        margin: auto;
+        width: 40%;
+        height: 40px;
+        background: linear-gradient(125deg,#81ecec,#6c5ce7,#81ecec);
+        background-position: left;
+        background-size: 200%;
+        color: rgb(255, 255, 255);
+        font-weight:bold;
+        border:none;
+        cursor:pointer;
+        transition: 0.4s;
+        display:inline;
+    }
+
+    .btn:hover{
+        background-position:right;
+    }
+    
+

@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family:sans-serif;
+}
+
+body {
+    background-color: #dee0d3;
+}
+.msg{
+    margin: 30px;
+}
+.loginForm{
+    position: absolute;
+    width:280px;
+    height:350px;
+    padding: 1%;
+    background-color:#FFFFFF;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    border : 2px solid rgb(110, 9, 9);
+}
+
+.loginForm h2{
+    text-align: center;
+    margin: 30px;
+}
+
+.idform{
+    
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+.adminmenu{
+    
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+.adminForm{
+    position: absolute;
+    width:200px;
+    height:400px;
+    padding: 1%;
+    background-color:#FFFFFF;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    border : 2px solid rgb(110, 9, 9);}
+    
+.passform{
+    
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+.id {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background: none;
+}
+
+.pw{
+    width:100%;
+    border: none;
+    outline: none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background:none;
+}
+
+.btn{
+    position:relative;
+    left: 40%;
+    transform: translateX(-50%);
+    margin-bottom:40px;
+    width: 80%;
+    height: 40px;
+    background: rgb(168, 76, 107);
+    background-position: left;
+    background-size: 200%;
+    color: white;
+    font-weight:bold;
+    border:2px solid black;
+    cursor:pointer;
+    transition: 0.4s;
+    display:inline;
+}
+
+.btn:hover{
+    background-position:right;
+}
+
+.signUp{
+    text-align: center;
+}
+
+.contents{
+    display:flex;
+    align-items:center;
+}
+
+.floating{
+    position: fixed;
+    right: 50%;
+    top: 300px;
+    margin-right: -720px;
+    text-align:center;
+    width:120px;
+}
+
+.usrlist{
+    position: absolute;
+    width:auto;
+    height:auto;
+    padding: 1%;
+    background-color:#FFFFFF;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    border : 2px solid rgb(110, 9, 9);}
+
+   
+
